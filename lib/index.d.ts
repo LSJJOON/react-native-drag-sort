@@ -25,6 +25,7 @@ interface IProps{
   delayLongPress?: number;
   isDragFreely?: boolean;
   onDragging?: (gestureState: any, left: number, top: number, moveToIndex: number) => void;
+  onChangeSort?: () => void;
 
   maxScale?: number;
   minOpacity?: number;
